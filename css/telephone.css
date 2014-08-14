@@ -1,0 +1,13 @@
+#telephone {
+	font-family: 'Lato', sans-serif;
+  display: block;
+  float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  position: relative;
+  font-size: 30px;
+}
+
+#telephone li {
+	margin: 12px 0px;
+}
