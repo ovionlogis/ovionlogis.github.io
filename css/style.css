@@ -225,13 +225,16 @@ nav #menu-icon {
 nav #nav {
   display: block;
   margin-left: 35px;
+  margin-right: 35px;
   /* substract 15 from the link padding */
-
 }
 nav #nav > li {
   display: block;
   float: left;
   /* Subnavigation ----------------------------------------------------*/
+}
+nav #nav > li:last-of-type {
+  float: right;
 }
 nav #nav > li:hover a,
 nav #nav > li.current-menu-item a,
