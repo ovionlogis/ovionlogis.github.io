@@ -191,16 +191,15 @@ header #logo img {
 }
 
 header #phone {
-  margin-top: 38px;
-  margin-bottom: 20px;
+  margin-top: 45px;
+  margin-right: 30px;
   float: right;
+  text-align: right;
+  font-size: 28px;
+  font-family: Impact, Charcoal, monospace;
 }
 header #phone:hover {
   opacity: 0.8;
-}
-header #phone img {
-  display: block;
-  margin: 0 30px 0 0;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	Nav

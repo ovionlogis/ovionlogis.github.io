@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>http://remont-nsk.net/</loc>
-		<lastmod>2014-08-19</lastmod>
-		<changefreq>weekly</changefreq>
+		<lastmod>2015-01-12</lastmod>
+		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://remont-nsk.net/index.html</loc>
-		<lastmod>2014-08-19</lastmod>
-		<changefreq>weekly</changefreq>
+		<lastmod>2015-01-12</lastmod>
+		<changefreq>monthly</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>http://remont-nsk.net/contact.html</loc>
-		<lastmod>2014-08-19</lastmod>
-		<changefreq>weekly</changefreq>
+		<lastmod>2015-01-12</lastmod>
+		<changefreq>monthly</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>http://remont-nsk.net/work.html</loc>
-		<lastmod>2014-08-19</lastmod>
-		<changefreq>weekly</changefreq>
+		<lastmod>2015-01-12</lastmod>
+		<changefreq>monthly</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>http://remont-nsk.net/electric.html</loc>
-		<lastmod>2014-08-19</lastmod>
-		<changefreq>weekly</changefreq>
+		<lastmod>2015-01-12</lastmod>
+		<changefreq>monthly</changefreq>
 		<priority>0.7</priority>
 	</url>
 </urlset>
