@@ -276,7 +276,7 @@ nav #nav > li ul a:hover {
 /*	MAIN
 /*-----------------------------------------------------------------------------------*/
 #main {
-  min-height: 700px;
+  min-height: 600px;
   position: relative;
   border-top: 5px solid #c6c2bc;
 }
