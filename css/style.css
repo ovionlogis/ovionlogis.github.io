@@ -14,8 +14,6 @@
 
 @import url('forms.css');
 
-@import url('comments.css');
-
 @import url('shortcodes.css');
 /*-----------------------------------------------------------------------------------*/
 /*	Mixings and colors
@@ -278,7 +276,7 @@ nav #nav > li ul a:hover {
 /*	MAIN
 /*-----------------------------------------------------------------------------------*/
 #main {
-  min-height: 690px;
+  min-height: 700px;
   position: relative;
   border-top: 5px solid #c6c2bc;
 }
