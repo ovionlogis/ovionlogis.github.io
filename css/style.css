@@ -196,7 +196,7 @@ header #phone {
   float: right;
   text-align: right;
   font-size: 28px;
-  font-family: Impact, Charcoal, monospace;
+  font-family: Impact, Charcoal;
 }
 header #phone:hover {
   opacity: 0.8;
