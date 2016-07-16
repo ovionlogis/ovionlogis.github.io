@@ -195,8 +195,9 @@ header #phone {
   margin-right: 30px;
   float: right;
   text-align: right;
-  font-size: 28px;
-  font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif; 
+  font-size: 26px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
 }
 header #phone:hover {
   opacity: 0.8;
@@ -779,7 +780,7 @@ footer:after {
   bottom: -46px;
   height: 46px;
   width: 100%;
-  width: 940px\9;
+  width: 940px;
   background: url(../img/main-shadow.png) no-repeat top center;
 }
 footer a {
