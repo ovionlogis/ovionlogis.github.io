@@ -195,11 +195,17 @@ header #phone {
   margin-right: 30px;
   float: right;
   text-align: right;
+}
+
+header #phone a {
   font-size: 26px;
   font-family: Arial, sans-serif;
   font-weight: bold;
+  color: inherit;
+  text-decoration: none;
 }
-header #phone:hover {
+
+header #phone a:hover {
   opacity: 0.8;
 }
 /*-----------------------------------------------------------------------------------*/
