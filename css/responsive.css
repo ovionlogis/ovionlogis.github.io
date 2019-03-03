@@ -1,125 +1,58 @@
-/*		Default Layout: 992px.
-		Gutters: 24px.
-		Outer margins: 48px.
-		Leftover space for scrollbars @1024px: 32px.
--------------------------------------------------------------------------------
-cols    1     2      3      4      5      6      7      8      9      10
-px      68    160    252    344    436    528    620    712    804    896    */
-/* Vars ----------------------------------------------------*/
-/* Mixins ----------------------------------------------------*/
-/* Defaul tNav   ----------------------------------------------------*/
-nav #comboNav {
-  display: none;
-}
-nav #nav {
-  display: block;
-}
-/*		Tablet Layout: 768px.
-		Gutters: 24px.
-		Outer margins: 28px.
-		Inherits styles from: Default Layout.
------------------------------------------------------------------
-cols    1     2      3      4      5      6      7      8
-px      68    160    252    344    436    528    620    712    */
-@media only screen and (max-width: 991px) {
-  /* TABLET WRAPPER ----------------------------------------------------*/
+@media only screen and (max-width: 768px) {
   .wrapper {
-    width: 768px;
+    width: 100%;
+    margin: 0;
   }
-  .line-heading {
-    margin: 0px 28px 30px 28px;
-  }
+
   .page-content {
     margin-left: 24px;
     margin-right: 24px;
   }
-  /* TABLET LAYOUTS ----------------------------------------------------*/
-  .one-third-col {
-    float: left;
-    margin-left: 28px;
-    width: 221px;
+
+  header {
+    flex-direction: column;
+    align-items: center;
   }
-  .two-third-col {
-    margin-right: 28px;
-    margin-bottom: 60px;
-    width: 466px;
+
+  header .logo img {
+    margin-bottom: 20px;
+    width: 200px;
   }
-  /* TABLET HEADER ----------------------------------------------------*/
-  header #logo img {
-    margin: 0 0 0 28px;
-  }
-  /* TABLET NAV ----------------------------------------------------*/
+
   nav {
+    padding: 0;
     width: 100%;
-    margin-left: 0px;
     font-size: 18px;
   }
-  nav #nav {
-    margin-left: 18px;
-    /* substract 10 from the link padding */
 
+  nav #nav {
+    display: flex;
+    flex-direction: column;
   }
-  nav #nav > li > a {
-    padding-left: 10px;
-    padding-right: 10px;
+
+  nav #nav a {
+    padding: 10px 20px;
+    text-align: center;
   }
-  /* TABLET SLIDER ----------------------------------------------------*/
+
+  nav #nav li:last-child {
+    margin-left: 0;
+  }
+
+  #main {
+    padding: 20px 20px 80px;
+  }
+
   .slider-wrapper {
-    margin: 30px auto 0px auto;
+    margin: 30px auto 0 auto;
     width: 702px;
   }
-  /* TABLET FEATURED AND WORK LIST ----------------------------------------------------*/.feature,
-  .work-list {
-    margin-left: 4px;
-  }
-  .feature li,
-  .work-list li {
-    margin-left: 25px;
-    width: 342px;
-  }
+
   .nav-categories {
     margin: 20px 28px 20px 28px;
   }
-  /* TABLET PAGER ----------------------------------------------------*/.pager {
-    margin: 0px 28px 60px 28px;
-  }
-  /* TABLET PROJECT  ----------------------------------------------------*/#project-gallery {
-    width: 420px;
-    margin-left: 28px;
-  }
-  #project-info {
-    margin-right: 28px;
-  }
-  .related-projects {
-    margin-left: 28px;
-    margin-right: 28px;
-  }
-  .related-projects .related-list li {
-    width: 221px;
-  }
-  /* TABLET BLOG ----------------------------------------------------*/#posts-list {
-    margin-left: 28px;
-    width: 420px;
-  }
-  /* TABLET FORMS ----------------------------------------------------*/#commentform input,
-  #commentform textarea {
-    width: 390px;
-  }
-  /* input form widths */
-  .wpcf7-form input,
-  #contactForm input,
-  .wpcf7-form textarea,
-  #contactForm textarea {
-    width: 450px;
-  }
-  /* TABLET WIDGETS  ----------------------------------------------------*/.widget-cols {
-    padding-left: 4px;
-  }
-  .widget-cols > li {
-    width: 715px;
-    margin-left: 24px;
-  }
-  /* TABLET FOOTER  ----------------------------------------------------*/footer:after {
-    width: 706px;
+
+  .pager {
+    margin: 0 28px 60px 28px;
   }
 }
