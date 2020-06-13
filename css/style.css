@@ -47,12 +47,12 @@ p {
   }
 }
 
-#main h1,
-#main h2,
-#main h3,
-#main h4,
-#main h5,
-#main h6 {
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
   font-family: 'Lato', sans-serif;
   line-height: 1.3em;
 }
@@ -206,14 +206,14 @@ nav #nav a {
 }
 
 /* MAIN */
-#main {
+main {
   padding: 30px 30px 60px;
   position: relative;
   border-top: 5px solid #c6c2bc;
 }
 
 @media (max-width: 768px) {
-  #main {
+  main {
     padding: 20px 20px 80px;
   }
 }
@@ -447,5 +447,17 @@ footer a:hover {
 .entry-content img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 15px;
+}
+
+.entry-content figure {
+  margin: 0 0 30px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .entry-content figure {
+    font-size: 16px;
+    margin: 0 0 24px;
+  }
 }
