@@ -1,7 +1,7 @@
 .widget-cols {
   position: relative;
   display: block;
-  background: #62493d url(../img/widgets.png) repeat;
+  background-color: #62493d;
   font-size: 14px;
   color: #e7d7ba;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);

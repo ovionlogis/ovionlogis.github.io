@@ -6,8 +6,8 @@
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <meta name="description" content="Ремонт и отделка квартир, офисных помещений. Бердск, Академгородок, Советский район">
   <meta name="viewport" content="width=device-width">
-  <link href="//fonts.googleapis.com/css?family=Arvo:400" rel="stylesheet" type="text/css">
-  <link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Arvo:400&display=swap" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/responsive.css">
 </head>
@@ -53,7 +53,7 @@
 
   <div class="footer-divider"></div>
   <footer>
-    Бердск <script>document.write(Date().split(' ')[3])</script>.
+    Бердск <span id="date"></span>.
   </footer>
 </div>
 
@@ -61,7 +61,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "url": "http://remont-nsk.net",
+    "url": "https://remont-nsk.net",
     "name": "Отделка и ремонт квартир. Бердск, Академгородок, Советский район.",
     "contactPoint": {
       "@type": "ContactPoint",
@@ -81,5 +81,7 @@
   ga('create', 'UA-53928522-1', 'auto');
   ga('send', 'pageview');
 </script>
+
+<script src="/js/index.js" async></script>
 </body>
 </html>
